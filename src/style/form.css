@@ -1,0 +1,11 @@
+@media print {
+    .signature-canvas {
+      display: none;
+    }
+    button{
+        display: none;
+    }
+    @page {
+        size: landscape;
+    }
+  }
