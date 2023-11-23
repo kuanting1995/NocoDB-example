@@ -6,13 +6,12 @@ const Listmy = () => {
 
   useEffect(() => {
     const options = {
-      method: "GET",
-      url: "http://localhost:8080/api/v1/db/data/noco/plljb7z8fyn4ye8/guest/views/%E6%B4%BB%E5%8B%95%E5%8F%83%E5%8A%A0%E4%BA%BA",
-      params: { offset: "0", limit: "25", where: "" },
+      method: 'GET',
+      url: 'http://localhost:8080/api/v1/db/data/noco/p5uvi4qv69nz6sx/test/views/test',
+      params: {offset: '0', limit: '25', where: ''},
       headers: {
-        "xc-auth":
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsYWlyZWx1QGtmc3lzY2Mub3JnIiwiaWQiOiJ1c213NjY1OWFseHFneGNyIiwicm9sZXMiOnsib3JnLWxldmVsLWNyZWF0b3IiOnRydWUsInN1cGVyIjp0cnVlfSwidG9rZW5fdmVyc2lvbiI6IjA5N2RiYzJkNDg0YzAyYTM2ZmE1MjRiMDhjODRhNjBkNjNkMmM5NGQyZmQ3YTA5YTA0NTNjYThlYWY5YzQ0OWZhMGQwMWM3MTM4ZDRlZWRlIiwiaWF0IjoxNjk5ODM4NjQ5LCJleHAiOjE2OTk4NzQ2NDl9.blrlcmPWoIk01e-vetTqQaWQfoZrAyWgUN1oex-i__0",
-      },
+        'xc-auth': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsYWlyZUBrZnN5c2NjLm9yZyIsImlkIjoidXN4bmlneWE0NmNxOWl3cSIsInJvbGVzIjoib3JnLWxldmVsLWNyZWF0b3Isc3VwZXIiLCJ0b2tlbl92ZXJzaW9uIjoiMzU1MTA3MmQyMzhlYzIxZTI3MmUzNWE4OThjN2Y5NzUxMDYxMWRiNTI3YjM1YmQxNjliNDQ3MTQ4MzU2NTU3ZDVjNmZkOGRjZGI4Y2Q0NWYiLCJpYXQiOjE3MDA3MDE5NTQsImV4cCI6MTcwMDczNzk1NH0.8Y-WKMn3md5gj0MILbsv_5h_06bDI6vN2nB3jOB_la8'
+      }
     };
 //axios傳送資料
     axios
